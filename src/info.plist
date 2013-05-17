@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>0.1</string>
+	<key>connections</key>
+	<dict>
+		<key>31B54F7B-69C3-4463-8478-F74D08558047</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4A145EDF-C228-4962-85BD-82CB65763880</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>A39E05AF-0195-4124-9DD5-11330DB02124</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>31B54F7B-69C3-4463-8478-F74D08558047</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Daniel H Pavey</string>
+	<key>description</key>
+	<string>Throw a folder at ImageOptim</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>ImageOptim</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>imageOptim {query}</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>31B54F7B-69C3-4463-8478-F74D08558047</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<false/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>ImageOptim</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>A39E05AF-0195-4124-9DD5-11330DB02124</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>title</key>
+				<string>Image Optim Launched</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>4A145EDF-C228-4962-85BD-82CB65763880</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Super simple workflow to use ImageOptim-CLI 
+
+ImageOptim-CLI needs to be installed first and put in your path first!
+
+Download here: https://github.com/JamieMason/ImageOptim-CLI
+
+You'll also need the ImageOptim app: http://imageoptim.com/</string>
+	<key>uidata</key>
+	<dict>
+		<key>31B54F7B-69C3-4463-8478-F74D08558047</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>4A145EDF-C228-4962-85BD-82CB65763880</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>A39E05AF-0195-4124-9DD5-11330DB02124</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>spacecadet9.com</string>
+</dict>
+</plist>
